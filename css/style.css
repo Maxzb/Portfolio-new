@@ -11,11 +11,16 @@ body {
   position: relative;
   height: 100vh;
   background: url("../img/desktop_new.jpg") no-repeat center center/cover;
+  letter-spacing: 0.07em;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {
   width: 1140px;
-  height: 100vh;
+  margin: 0 auto;
 }
 
 .about-me-link {
@@ -171,5 +176,98 @@ body {
           transform: translate(2px, 2px);
   -webkit-box-shadow: -3px -3px 2px 0px rgba(196, 129, 18, 0.5);
           box-shadow: -3px -3px 2px 0px rgba(196, 129, 18, 0.5);
+}
+
+.cop-rect {
+  position: absolute;
+  top: 19%;
+  left: 17%;
+  width: 65%;
+  height: 150px;
+  border: 1px solid #c48112;
+}
+
+.offer-block {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 55%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  top: 23%;
+  left: 22%;
+}
+
+.main-left-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.h1 {
+  font-size: 45px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.h1 span {
+  color: #c48112;
+}
+
+.job-text {
+  font-size: 24px;
+  font-weight: 300;
+  color: #aaa;
+}
+
+.main-right-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.site-desc {
+  font-size: 16px;
+  font-weight: 200;
+  color: #aaa;
+  margin-top: 15px;
+}
+
+.phone {
+  display: block;
+  font-size: 22px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.phone span {
+  color: #c48112;
+}
+
+.phone:hover {
+  color: #c48112;
+  -webkit-transition: .2s;
+  transition: .2s;
 }
 /*# sourceMappingURL=style.css.map */

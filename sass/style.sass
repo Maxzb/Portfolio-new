@@ -13,9 +13,12 @@ body
 	position: relative
 	height: 100vh
 	background: url('../img/desktop_new.jpg') no-repeat center center / cover
+	letter-spacing: 0.07em;
+a
+	text-decoration: none
 .container
 	width: 1140px
-	height: 100vh
+	margin: 0 auto
 
 .about-me-link
 	display: flex
@@ -98,3 +101,54 @@ body
 		&:nth-child(3)
 			transform: translate(2px, 2px)
 			box-shadow: -3px -3px 2px 0px rgba(196,129,18,0.5)
+
+.cop-rect
+	position: absolute
+	top: 19%
+	left: 17%
+	width: 65%
+	height: 150px
+	border: 1px solid $cop
+.offer-block
+	position: absolute
+	display: flex
+	width: 55%
+	justify-content: space-between
+	top: 23%
+	left: 22%
+.main-left-block
+	display: flex
+	flex-direction: column
+	align-items: flex-start
+	justify-content: space-around
+.site-desc
+.h1
+	font-size: 45px
+	font-weight: 300
+	color: #fff
+	& span
+		color: $cop
+.job-text
+	font-size: 24px
+	font-weight: 300
+	color: $grey
+.main-right-block
+	display: flex
+	flex-direction: column
+	align-items: flex-end
+	justify-content: space-between
+.site-desc
+	font-size: 16px
+	font-weight: 200
+	color: $grey
+	margin-top: 15px
+.phone
+	display: block
+	font-size: 22px
+	font-weight: 300
+	color: #fff
+	& span
+		color: $cop
+	&:hover
+		color: $cop
+		transition: .2s
