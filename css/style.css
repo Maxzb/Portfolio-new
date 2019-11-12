@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap&subset=cyrillic");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  background: url("../img/desktop_new.jpg") no-repeat center center/cover;
+}
+
+.container {
+  width: 1140px;
+  height: 100vh;
+}
+
+.about-me-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60px;
+  height: 100vh;
+  border-right: 1px solid rgba(170, 170, 170, 0.15);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+
+.about-me-link:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 2px 1px 12px -3px rgba(170, 170, 170, 0.73);
+          box-shadow: 2px 1px 12px -3px rgba(170, 170, 170, 0.73);
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.about-me-link:hover .about-me-text span {
+  color: #c48112;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.about-me-text {
+  display: block;
+  width: 100px;
+  height: 35px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  font-size: 24px;
+  font-weight: 100;
+  color: #aaa;
+}
+
+.social-block {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60px;
+  height: 100vh;
+  border-left: 1px solid rgba(170, 170, 170, 0.15);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+
+.social-block-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social-block-icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.skype {
+  background: url("../img/skype_cop.png") no-repeat center center/cover;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.skype:hover {
+  background: url("../img/skype_web.png") no-repeat center center/cover;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.instagram {
+  background: url("../img/inst_cop.png") no-repeat center center/cover;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.instagram:hover {
+  background: url("../img/inst_web.png") no-repeat center center/cover;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.vk {
+  background: url("../img/vk_cop.png") no-repeat center center/cover;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.vk:hover {
+  background: url("../img/vk_web.png") no-repeat center center/cover;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.icon-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(170, 170, 170, 0.15);
+}
+
+.icon-circle:hover {
+  -webkit-transform: translate(2px, -2px);
+          transform: translate(2px, -2px);
+  border: 1px solid rgba(196, 129, 18, 0.15);
+  -webkit-box-shadow: -3px 3px 2px 0px rgba(196, 129, 18, 0.5);
+          box-shadow: -3px 3px 2px 0px rgba(196, 129, 18, 0.5);
+}
+
+.icon-circle:hover:nth-child(2) {
+  -webkit-transform: translate(2px);
+          transform: translate(2px);
+  -webkit-box-shadow: -3px 0px 2px 1px rgba(196, 129, 18, 0.5);
+          box-shadow: -3px 0px 2px 1px rgba(196, 129, 18, 0.5);
+}
+
+.icon-circle:hover:nth-child(3) {
+  -webkit-transform: translate(2px, 2px);
+          transform: translate(2px, 2px);
+  -webkit-box-shadow: -3px -3px 2px 0px rgba(196, 129, 18, 0.5);
+          box-shadow: -3px -3px 2px 0px rgba(196, 129, 18, 0.5);
+}
+/*# sourceMappingURL=style.css.map */
