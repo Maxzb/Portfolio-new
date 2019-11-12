@@ -12,6 +12,8 @@ body {
   height: 100vh;
   background: url("../img/desktop_new.jpg") no-repeat center center/cover;
   letter-spacing: 0.07em;
+  max-width: 1580px;
+  margin: 0 auto;
 }
 
 a {
@@ -181,8 +183,8 @@ a {
 .cop-rect {
   position: absolute;
   top: 19%;
-  left: 17%;
-  width: 65%;
+  left: 14%;
+  width: 71%;
   height: 150px;
   border: 1px solid #c48112;
 }
@@ -269,5 +271,106 @@ a {
   color: #c48112;
   -webkit-transition: .2s;
   transition: .2s;
+}
+
+.portfolio-block {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 65%;
+  top: 50%;
+  left: 17%;
+}
+
+.port-item {
+  display: block;
+  width: 260px;
+  height: 330px;
+  border: 1px solid #c48112;
+  -webkit-filter: grayscale(0.7);
+          filter: grayscale(0.7);
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.port-item:hover {
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.port-site1 {
+  background: url("../img/AG.jpg") no-repeat center top/cover;
+}
+
+.port-site1:hover + .num-port1 {
+  -webkit-transition: .2s;
+  transition: .2s;
+  color: rgba(196, 129, 18, 0.8);
+}
+
+.port-site2 {
+  background: url("../img/Resume_port.jpg") no-repeat center top/cover;
+}
+
+.port-site2:hover + .num-port2 {
+  -webkit-transition: .2s;
+  transition: .2s;
+  color: rgba(196, 129, 18, 0.8);
+}
+
+.port-site3 {
+  background: url("../img/Lovecraft_port.jpg") no-repeat center top/cover;
+}
+
+.port-site3:hover + .num-port3 {
+  -webkit-transition: .2s;
+  transition: .2s;
+  color: rgba(196, 129, 18, 0.8);
+}
+
+.num_port {
+  position: absolute;
+  font-size: 230px;
+  font-weight: 400;
+  color: rgba(196, 129, 18, 0.5);
+  z-index: -1;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.num-port1 {
+  top: -25%;
+  left: -7.3%;
+}
+
+.num-port2 {
+  top: -25%;
+  left: 28%;
+}
+
+.num-port3 {
+  top: -25%;
+  left: 65%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 3px;
+  left: 81.3%;
+  font-size: 12px;
+  font-weight: 200;
+  color: #fff;
+}
+
+.footer span {
+  color: #c48112;
 }
 /*# sourceMappingURL=style.css.map */

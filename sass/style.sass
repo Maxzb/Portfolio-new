@@ -13,7 +13,9 @@ body
 	position: relative
 	height: 100vh
 	background: url('../img/desktop_new.jpg') no-repeat center center / cover
-	letter-spacing: 0.07em;
+	letter-spacing: 0.07em
+	max-width: 1580px
+	margin: 0 auto
 a
 	text-decoration: none
 .container
@@ -105,8 +107,8 @@ a
 .cop-rect
 	position: absolute
 	top: 19%
-	left: 17%
-	width: 65%
+	left: 14%
+	width: 71%
 	height: 150px
 	border: 1px solid $cop
 .offer-block
@@ -152,3 +154,63 @@ a
 	&:hover
 		color: $cop
 		transition: .2s
+
+.portfolio-block
+	position: absolute
+	display: flex
+	justify-content: space-between
+	width: 65%
+	top: 50%
+	left: 17%
+.port-item
+	display: block
+	width: 260px
+	height: 330px
+	border: 1px solid $cop
+	filter: grayscale(0.7)
+	transition: .2s
+	&:hover
+		transition: .2s
+		transform: translateY(-10px)
+		filter: grayscale(0)
+.port-site1
+	background: url('../img/AG.jpg') no-repeat center top / cover
+	&:hover + .num-port1
+		transition: .2s
+		color: rgba($cop, .8)
+.port-site2
+	background: url('../img/Resume_port.jpg') no-repeat center top / cover
+	&:hover + .num-port2
+		transition: .2s
+		color: rgba($cop, .8)
+.port-site3
+	background: url('../img/Lovecraft_port.jpg') no-repeat center top / cover
+	&:hover + .num-port3
+		transition: .2s
+		color: rgba($cop, .8)
+.num_port
+	position: absolute
+	font-size: 230px
+	font-weight: 400
+	color: rgba($cop, .5)
+	z-index: -1
+	transition: .2s
+.num-port1
+	top: -25%
+	left: -7.3%
+.num-port2
+	top: -25%
+	left: 28%
+.num-port3
+	top: -25%
+	left: 65%
+
+.footer
+	position: absolute
+	bottom: 3px
+	left: 81.3%
+	font-size: 12px
+	font-weight: 200
+	color: #fff
+	& span
+		color: $cop
