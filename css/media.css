@@ -1,7 +1,396 @@
+@media screen and (max-width: 1600px) {
+  .offer-block {
+    top: 22%;
+  }
+}
+
 @media screen and (max-width: 1450px) {
   .portfolio-block {
     width: 75%;
     left: 12%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .h1 {
+    font-size: 40px;
+  }
+  .job-text {
+    font-size: 20px;
+  }
+  .site-desc {
+    margin-top: 11px;
+  }
+  .phone {
+    font-size: 19px;
+  }
+  .port-item {
+    width: 240px;
+    height: 310px;
+  }
+  .num_port {
+    font-size: 210px;
+  }
+  .num-port1 {
+    left: -7.7%;
+  }
+  .num-port2 {
+    left: 28%;
+  }
+  .num-port3 {
+    left: 64%;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .port-item {
+    width: 220px;
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .num-port2 {
+    left: 27%;
+  }
+  .num-port3 {
+    left: 63%;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .num_port {
+    font-size: 195px;
+  }
+  .port-item {
+    width: 210px;
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cop-rect {
+    left: 14.5%;
+  }
+  .h1 {
+    font-size: 32px;
+  }
+  .job-text {
+    font-size: 18px;
+  }
+  .phone {
+    font-size: 18px;
+  }
+  .site-desc {
+    margin-top: 10px;
+  }
+  .offer-block {
+    top: 22%;
+  }
+  .port-item {
+    width: 200px;
+    height: 260px;
+  }
+  .num_port {
+    font-size: 180px;
+  }
+  .num-port1 {
+    left: -7.3%;
+  }
+  .num-port2 {
+    left: 27.5%;
+  }
+  .num-port3 {
+    left: 64%;
+  }
+  .about-me-info-block {
+    padding: 20px 5px 20px 50px;
+  }
+  .footer {
+    left: 43%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .h1 {
+    font-size: 45px;
+  }
+  .about-main-block {
+    width: 70%;
+  }
+  .about-me-info-block {
+    padding-left: 25px;
+    padding-right: 20px;
+  }
+  .offer-block {
+    display: block;
+    top: 19.5%;
+  }
+  .main-left-block {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main-right-block {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .site-desc {
+    font-size: 18px;
+    margin-top: 33px;
+  }
+  .cop-rect {
+    height: 180px;
+  }
+  .job-text {
+    font-size: 20px;
+  }
+  .phone {
+    font-size: 24px;
+  }
+  .about-me-info-block {
+    font-size: 18px;
+  }
+  .resume-link {
+    font-size: 20px;
+  }
+  .portfolio-block {
+    width: 84%;
+    left: 8%;
+    top: 60%;
+  }
+  .port-item {
+    height: 300px;
+  }
+  .num-port1, .num-port2, .num-port3 {
+    top: -61%;
+  }
+  .num-port1 {
+    left: 7.7%;
+  }
+  .num-port2 {
+    left: 41.5%;
+  }
+  .num-port3 {
+    left: 77%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    height: 1422px;
+  }
+  .about-me-link {
+    background: rgba(0, 0, 0, 0.78);
+    width: 40px;
+  }
+  .about-me-link:hover {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .social-block {
+    background: rgba(0, 0, 0, 0.78);
+  }
+  .about-main-block {
+    width: 100%;
+  }
+  .about-me-info-block {
+    font-size: 16px;
+  }
+  .resume-link {
+    font-size: 18px;
+  }
+  .social-block {
+    width: 40px;
+  }
+  h1 {
+    text-align: center;
+  }
+  .job-text {
+    font-size: 17px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .site-desc {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 152px;
+  }
+  .main-right-block {
+    width: 200px;
+  }
+  .phone {
+    width: 190px;
+  }
+  .about-me-text span {
+    color: #c48112;
+  }
+  .footer {
+    left: 29%;
+  }
+  .close {
+    right: 8%;
+  }
+  .num_port {
+    font-size: 90px;
+  }
+  .num-port1 {
+    top: -1.5%;
+    left: 4%;
+  }
+  .num-port2 {
+    top: 32%;
+    left: 4%;
+  }
+  .num-port3 {
+    top: 65%;
+    left: 4%;
+  }
+  .about-me-info-block {
+    right: 40px;
+  }
+  .icon-circle:hover {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .icon-circle:hover:nth-child(2) {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .icon-circle:hover:nth-child(3) {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .portfolio-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    top: 46.4%;
+    margin-left: 11px;
+  }
+  .port-item {
+    width: 280px;
+    height: 150px;
+    margin-top: 80px;
+  }
+  .footer {
+    font-size: 10px;
+    left: 32%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    height: 1200px;
+  }
+  .about-me-link {
+    background: rgba(0, 0, 0, 0.82);
+    width: 40px;
+  }
+  .about-me-link:hover {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .about-main-block {
+    width: 100%;
+  }
+  .about-me-info-block {
+    font-size: 14px;
+  }
+  .resume-link {
+    font-size: 16px;
+  }
+  .social-block {
+    width: 40px;
+  }
+  h1 {
+    text-align: center;
+  }
+  .job-text {
+    font-size: 17px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .site-desc {
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 99px;
+  }
+  .main-right-block {
+    width: 185px;
+  }
+  .phone {
+    width: 190px;
+  }
+  .about-me-text span {
+    color: #c48112;
+  }
+  .footer {
+    left: 29%;
+  }
+  .close {
+    right: 8%;
+  }
+  .num_port {
+    font-size: 90px;
+  }
+  .num-port1 {
+    top: -5%;
+    left: -10.5%;
+  }
+  .num-port2 {
+    top: 30%;
+    left: -9.2%;
+  }
+  .num-port3 {
+    top: 63.5%;
+    left: -9.2%;
+  }
+  .about-me-info-block {
+    right: 40px;
+  }
+  .icon-circle:hover {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .icon-circle:hover:nth-child(2) {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .icon-circle:hover:nth-child(3) {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .portfolio-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    top: 50%;
+  }
+  .port-item {
+    width: 270px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 14px;
+  }
+  .footer {
+    font-size: 10px;
+    left: 32%;
   }
 }
 /*# sourceMappingURL=media.css.map */

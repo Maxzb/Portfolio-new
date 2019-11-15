@@ -54,8 +54,9 @@ a
 	text-indent: 1.8em
 	padding: 20px 20px
 	margin-right: 90%
-	transition: 0.13s
+	transition: 0.11s
 .about-me-link
+	position: relative
 	display: flex
 	flex-direction: column
 	align-items: center
@@ -81,7 +82,6 @@ a
 	font-size: 24px
 	font-weight: 100
 	color: $grey
-
 .social-block
 	position: absolute
 	top: 0
@@ -94,7 +94,7 @@ a
 	height: 100vh
 	border-left: 1px solid rgba(170, 170, 170, 0.15)
 	backdrop-filter: blur(2px)
-
+	z-index: 15
 .social-block-icons
 	display: flex
 	height: 150px
@@ -159,7 +159,6 @@ a
 	flex-direction: column
 	align-items: flex-start
 	justify-content: space-around
-.site-desc
 .h1
 	font-size: 45px
 	font-weight: 300
@@ -281,8 +280,8 @@ a
 	display: block
 	transition: .2s
 .active-wrap
-	width: 100vw
-	transition: .5s
+	width: 100%
+	transition: .2s
 .left
 	left: 0
 .z-index
