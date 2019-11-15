@@ -109,6 +109,28 @@
   .footer {
     left: 43%;
   }
+  .about-me-link:hover {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .icon-circle:hover {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .icon-circle:hover:nth-child(2) {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .icon-circle:hover:nth-child(3) {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
 }
 
 @media screen and (max-width: 950px) {
@@ -151,6 +173,7 @@
   }
   .about-me-info-block {
     font-size: 18px;
+    right: 40px;
   }
   .resume-link {
     font-size: 20px;
@@ -161,7 +184,7 @@
     top: 60%;
   }
   .port-item {
-    height: 300px;
+    height: 280px;
   }
   .num-port1, .num-port2, .num-port3 {
     top: -61%;
@@ -175,12 +198,6 @@
   .num-port3 {
     left: 77%;
   }
-}
-
-@media screen and (max-width: 375px) {
-  body {
-    height: 1422px;
-  }
   .about-me-link {
     background: rgba(0, 0, 0, 0.78);
     width: 40px;
@@ -190,7 +207,209 @@
             box-shadow: none;
   }
   .social-block {
+    width: 40px;
     background: rgba(0, 0, 0, 0.78);
+  }
+}
+
+@media screen and (max-width: 823px) {
+  .offer-block {
+    left: 22.5%;
+  }
+  .port-item {
+    width: 198.5px;
+    height: 145px;
+  }
+  .phone {
+    color: #c48112;
+  }
+  .site-desc {
+    color: #0A0B0B;
+    font-weight: 400;
+  }
+  .portfolio-block {
+    width: 80%;
+    left: 10%;
+  }
+  .num_port {
+    font-size: 80px;
+  }
+  .num-port1, .num-port2, .num-port3 {
+    top: -32%;
+  }
+  .num-port1 {
+    left: -3.9%;
+  }
+  .num-port2 {
+    left: 29.5%;
+  }
+  .num-port3 {
+    left: 65%;
+  }
+}
+
+@media screen and (max-width: 823px) {
+  .site-desc {
+    margin-top: 25px;
+  }
+  .about-me-info-block {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .site-desc {
+    color: #aaa;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .num_port {
+    display: none;
+  }
+  .site-desc {
+    margin-top: 15px;
+  }
+  .phone {
+    font-size: 22px;
+  }
+  .port-item {
+    width: 193px;
+    height: 140px;
+  }
+  .about-me-info-block {
+    font-size: 16px;
+  }
+  .close {
+    right: 11%;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .site-desc {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 731px) {
+  .site-desc {
+    margin-top: 33px;
+  }
+  .portfolio-block {
+    width: 83%;
+    left: 8.5%;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .h1 {
+    font-size: 40px;
+  }
+  .job-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .h1 {
+    font-size: 34px;
+  }
+  .job-text {
+    font-size: 15px;
+  }
+  .site-desc {
+    font-size: 16px;
+    margin-top: 41px;
+  }
+  .phone {
+    font-size: 18px;
+  }
+  .port-item {
+    width: 170px;
+    height: 120px;
+  }
+  .portfolio-block {
+    width: 79%;
+    left: 10.5%;
+  }
+  .footer {
+    font-size: 9px;
+    left: 41%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .h1 {
+    font-size: 35px;
+  }
+  .job-text {
+    font-size: 16px;
+  }
+  .site-desc {
+    margin-top: 28px;
+  }
+  .port-item {
+    width: 170px;
+    height: 125px;
+  }
+  .about-me-info-block {
+    font-size: 14px;
+  }
+  .portfolio-block {
+    width: 83%;
+    left: 8.5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .h1 {
+    font-size: 33px;
+  }
+  .job-text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .h1 {
+    font-size: 32px;
+  }
+  .job-text {
+    font-size: 15px;
+  }
+  .site-desc {
+    font-size: 16px;
+    margin-top: 23px;
+  }
+  .phone {
+    font-size: 18px;
+  }
+  .port-item {
+    width: 146px;
+    height: 110px;
+  }
+  .portfolio-block {
+    width: 78%;
+    left: 11%;
+  }
+  .footer {
+    font-size: 9px;
+    left: 41%;
+  }
+  .resume-link {
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .main-left-block {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  body {
+    height: 1632px;
   }
   .about-main-block {
     width: 100%;
@@ -201,9 +420,6 @@
   .resume-link {
     font-size: 18px;
   }
-  .social-block {
-    width: 40px;
-  }
   h1 {
     text-align: center;
   }
@@ -213,6 +429,7 @@
     margin-top: 15px;
   }
   .site-desc {
+    color: #fff;
     font-size: 16px;
     font-weight: 300;
     margin-top: 152px;
@@ -221,7 +438,8 @@
     width: 200px;
   }
   .phone {
-    width: 190px;
+    font-size: 22px;
+    width: 175px;
   }
   .about-me-text span {
     color: #c48112;
@@ -233,10 +451,11 @@
     right: 8%;
   }
   .num_port {
+    display: block;
     font-size: 90px;
   }
   .num-port1 {
-    top: -1.5%;
+    top: -2%;
     left: 4%;
   }
   .num-port2 {
@@ -244,7 +463,7 @@
     left: 4%;
   }
   .num-port3 {
-    top: 65%;
+    top: 66%;
     left: 4%;
   }
   .about-me-info-block {
@@ -274,12 +493,12 @@
         -ms-flex-direction: column;
             flex-direction: column;
     top: 46.4%;
-    margin-left: 11px;
+    margin-left: 8px;
   }
   .port-item {
-    width: 280px;
-    height: 150px;
-    margin-top: 80px;
+    width: 330px;
+    height: 180px;
+    margin-top: 95px;
   }
   .footer {
     font-size: 10px;
@@ -287,37 +506,69 @@
   }
 }
 
+@media screen and (max-width: 411px) {
+  body {
+    height: 1622px;
+  }
+  .port-item {
+    width: 333px;
+    margin-top: 80px;
+  }
+  .num-port3 {
+    top: 65%;
+    left: 4%;
+  }
+  .cop-rect {
+    height: 160px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    height: 1480px;
+  }
+  .portfolio-block {
+    margin-left: -1px;
+    margin-top: 30px;
+  }
+  .num-port1 {
+    top: -1.5%;
+  }
+  .port-item {
+    width: 295px;
+    height: 150px;
+  }
+  .port-item:first-child {
+    margin-top: 95px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  body {
+    height: 1420px;
+  }
+  .portfolio-block {
+    margin-left: 10px;
+  }
+  .num-port1 {
+    top: -1.5%;
+  }
+  .port-item {
+    width: 295px;
+    height: 150px;
+    margin-top: 95px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   body {
-    height: 1200px;
-  }
-  .about-me-link {
-    background: rgba(0, 0, 0, 0.82);
-    width: 40px;
-  }
-  .about-me-link:hover {
-    -webkit-box-shadow: none;
-            box-shadow: none;
-  }
-  .about-main-block {
-    width: 100%;
+    height: 1260px;
   }
   .about-me-info-block {
     font-size: 14px;
   }
   .resume-link {
     font-size: 16px;
-  }
-  .social-block {
-    width: 40px;
-  }
-  h1 {
-    text-align: center;
-  }
-  .job-text {
-    font-size: 17px;
-    text-align: center;
-    margin-top: 15px;
   }
   .site-desc {
     font-size: 16px;
@@ -327,70 +578,29 @@
   .main-right-block {
     width: 185px;
   }
-  .phone {
-    width: 190px;
-  }
-  .about-me-text span {
-    color: #c48112;
-  }
-  .footer {
-    left: 29%;
-  }
-  .close {
-    right: 8%;
-  }
-  .num_port {
-    font-size: 90px;
-  }
   .num-port1 {
-    top: -5%;
-    left: -10.5%;
+    top: 2%;
+    left: -12.5%;
   }
   .num-port2 {
-    top: 30%;
-    left: -9.2%;
+    top: 35%;
+    left: -12.5%;
   }
   .num-port3 {
-    top: 63.5%;
-    left: -9.2%;
-  }
-  .about-me-info-block {
-    right: 40px;
-  }
-  .icon-circle:hover {
-    -webkit-transform: none;
-            transform: none;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-  }
-  .icon-circle:hover:nth-child(2) {
-    -webkit-transform: none;
-            transform: none;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-  }
-  .icon-circle:hover:nth-child(3) {
-    -webkit-transform: none;
-            transform: none;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    top: 68.5%;
+    left: -12.5%;
   }
   .portfolio-block {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     top: 50%;
   }
   .port-item {
-    width: 270px;
+    width: 257px;
     height: 150px;
     margin-top: 30px;
     margin-left: 14px;
   }
-  .footer {
-    font-size: 10px;
-    left: 32%;
+  .phone {
+    width: 175px;
   }
 }
 /*# sourceMappingURL=media.css.map */
