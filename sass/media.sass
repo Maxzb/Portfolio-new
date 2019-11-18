@@ -1,3 +1,8 @@
+$grey: #aaa
+$cop: #c48112
+$white: #fff
+$dark-blue: #0B0C0E
+   
 @media screen and (max-width: 1600px)
    .offer-block
       top: 22%
@@ -43,6 +48,8 @@
 @media screen and (max-width: 1024px)
    .cop-rect
       left: 14.5%
+      height: 130px
+      top: 20.5%
    .h1
       font-size: 32px
    .job-text
@@ -52,7 +59,7 @@
    .site-desc
       margin-top: 10px
    .offer-block
-      top: 22%
+      top: 23%
    .port-item
       width: 200px
       height: 260px
@@ -80,6 +87,11 @@
          transform: none
          box-shadow: none
 @media screen and (max-width: 950px)
+   body
+      background: none
+      background-color: #0B0C0E
+   .head-wrap
+      background: url('../img/desktop_mob.jpg') no-repeat center center / cover
    .h1
       font-size: 45px
    .about-main-block
@@ -87,6 +99,9 @@
    .about-me-info-block
       padding-left: 25px
       padding-right: 20px
+   .about-me-link
+      border-bottom-right-radius: 50px
+      border-top-right-radius: 50px
    .offer-block
       display: block
       top: 19.5%
@@ -98,6 +113,7 @@
       font-size: 18px
       margin-top: 33px
    .cop-rect
+      display: none
       height: 180px
    .job-text
       font-size: 20px
@@ -114,8 +130,11 @@
       top: 60%
    .port-item
       height: 280px
+      filter: grayscale(0)
+   .num_port
+      color: rgba($cop, .9)
    .num-port1, .num-port2, .num-port3
-     top: -61%
+      top: -61%
    .num-port1
       left: 7.7%
    .num-port2
@@ -130,6 +149,20 @@
    .social-block
       width: 40px
       background: rgba(0,0,0,.78)
+      border-bottom-left-radius: 50px
+      border-top-left-radius: 50px
+   .close
+      opacity: .8
+   .resume-link
+      color: rgba($cop, 1)
+      margin: 20px 0 10px
+      & span
+         color: rgba($white, 1)
+   .social-alarm
+      top: 20.7%
+      right: 15%
+      color: #fff
+      background-color: rgba($cop, .7)
 @media screen and (max-width: 823px)
    .offer-block
       left: 22.5%
@@ -159,23 +192,36 @@
       margin-top: 25px
    .about-me-info-block
       font-size: 16px
+   .offer-block
+      top: 8.5%
 @media screen and (max-width: 768px)
    .site-desc
       color: #aaa
+   .offer-block
+      top: 17.5%
+   .cop
+      color: $cop
 @media screen and (max-width: 740px)
+   .offer-block
+      top: 15%
    .num_port
       display: none
    .site-desc
+      color: $dark-blue
       margin-top: 15px
    .phone
       font-size: 22px
    .port-item
       width: 193px
       height: 140px
+   .about-main-block
+      width: 60%
    .about-me-info-block
-      font-size: 16px
+      font-size: 15px
    .close
       right: 11%
+   .cop
+      color: $cop
 @media screen and (max-width: 736px)
    .site-desc
       margin-top: 30px
@@ -212,9 +258,13 @@
 @media screen and (max-width: 640px)
    .h1
       font-size: 35px
+   .offer-block
+      top: 17%
    .job-text
       font-size: 16px
    .site-desc
+      color: #fff
+      font-weight: 300
       margin-top: 28px
    .port-item
       width: 170px
@@ -224,6 +274,8 @@
    .portfolio-block
       width: 83%
       left: 8.5%
+   .resume-link
+      font-size: 16px
 @media screen and (max-width: 600px)
    .h1
       font-size: 33px
@@ -248,31 +300,32 @@
    .footer
       font-size: 9px
       left: 41%
-   .resume-link
-      margin: 20px 0
 @media screen and (max-width: 545px)
    .main-left-block
       text-align: center
 @media screen and (max-width: 414px)
    body
       height: 1632px
+   .offer-block
+      top: 8.5%
    .about-main-block
       width: 100%
    .about-me-info-block
       font-size: 16px
    .resume-link
       font-size: 18px
-   h1
+   .h1
+      font-size: 42px
       text-align: center
    .job-text
-      font-size: 17px
+      font-size: 22px
       text-align: center
       margin-top: 15px
    .site-desc
-      color: #fff
-      font-size: 16px
-      font-weight: 300
-      margin-top: 152px
+      color: $dark-blue
+      font-size: 21px
+      font-weight: 400
+      margin-top: 110px
    .main-right-block
       width: 200px
    .phone
@@ -287,15 +340,13 @@
    .num_port
       display: block
       font-size: 90px
+      left: 0%
    .num-port1
-      top: -2%
-      left: 4%
+      top: 0%
    .num-port2
-      top: 32%
-      left: 4%
+      top: 33.5%
    .num-port3
-      top: 66%
-      left: 4%
+      top: 67%
    .about-me-info-block
       right: 40px
    .icon-circle:hover
@@ -318,71 +369,137 @@
    .footer
       font-size: 10px
       left: 32%
+   .main-right-block
+      width: 100%
 
 @media screen and (max-width: 411px)
    body
-      height: 1622px
+      height: 1650px
+   .h1
+      font-size: 35px
+   .offer-block
+      top: 9%
+   .job-text
+      font-size: 20px
+   .site-desc
+      font-size: 20px
+      color: $dark-blue
+      font-weight: 400
+      margin-top: 115px
+   .main-right-block
+      width: 100%
+      margin: 0
+   .portfolio-block
+      top: 50%
+      left: 8%
    .port-item
       width: 333px
       margin-top: 80px
+   .num_port
+      left: -1%
    .num-port3
       top: 65%
-      left: 4%
    .cop-rect
       height: 160px
 @media screen and (max-width: 375px)
    body
-      height: 1480px
+      height: 1550px
+   .offer-block
+      top: 9%
+   .h1
+      font-size: 34px
+   .job-text
+      font-size: 18px
+   .site-desc
+      margin-top: 100px
+      color: $dark-blue
+      font-size: 19px  
    .portfolio-block
-      margin-left: -1px
-      margin-top: 30px
+      left: 9%
+   .num_port
+      left: -9%
    .num-port1
-      top: -1.5%
+      top: 2%
+   .num-port2
+      top: 34.5%
+   .num-port3
+      top: 67%
    .port-item
       width: 295px
       height: 150px
+      margin-top: 90px
       &:first-child
-         margin-top: 95px
+         margin-top: 110px
 @media screen and (max-width: 360px)
    body
-      height: 1420px
+      height: 1620px
+   .h1
+      font-size: 36px
+   .job-text
+      font-size: 19px
+   .offer-block
+      top: 8%
+   .site-desc
+      font-size: 20px
+      font-weight: 400
+      margin-top: 105px
+      color: #0B0C0E
    .portfolio-block
-      margin-left: 10px
+      margin-left: -7px
+      margin-top: 0
+   .num_port
+      left: 0
    .num-port1
-      top: -1.5%
+      top: -0.5%
+   .num-port2
+      top: 33%
+   .num-port3
+      top: 66.5%
    .port-item
       width: 295px
       height: 150px
-      &:first-child
       margin-top: 95px
+
 @media screen and (max-width: 320px)
    body
-      height: 1260px
+      height: 1300px
+   .offer-block
+      top: 8%
    .about-me-info-block
       font-size: 14px
    .resume-link
       font-size: 16px   
    .site-desc
       font-size: 16px
-      font-weight: 200
-      margin-top: 99px
+      font-weight: 300
+      margin-top: 80px
+      color: #0B0C0E
    .main-right-block
       width: 185px
    .num-port1
-      top: 2%
-      left: -12.5%
+      top: -8%
+      left: -11.5%
    .num-port2
-      top: 35%
+      top: 27%
       left: -12.5%
    .num-port3
-      top: 68.5%
+      top: 62%
       left: -12.5%
    .portfolio-block
       top: 50%
+      left: 12%
+      margin-top: 5px
    .port-item
       width: 257px
       height: 150px
       margin-top: 30px
-      margin-left: 14px
+      margin-bottom: 28px
+      &:first-child
+         margin-top: 0
    .phone
       width: 175px
+   .cop-rect
+      display: none
+
+.border-r
+	border-radius: 0px

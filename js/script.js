@@ -5,6 +5,8 @@ $(document).ready(function(){
       $('.cop').toggleClass('color-cop');
       $('.about-me-info-block').toggleClass('margin-right');
       $('.cop-rect, .offer-block, .portfolio-block, .social-block').toggleClass('z-index');
+      $('.about-me-link').toggleClass('border-r');
+
    });
    $('.resume-link').click(function() {
       $('.close').toggleClass('active');
@@ -12,5 +14,13 @@ $(document).ready(function(){
       $('.cop').toggleClass('color-cop');
       $('.about-me-info-block').toggleClass('margin-right');
       $('.cop-rect, .offer-block, .portfolio-block, .social-block').toggleClass('z-index');
+      $('.about-me-link').toggleClass('border-r');
    });
+
+   $('.instagram, .vk').click(function() {
+      $('.social-alarm').addClass('visible');
+         setTimeout(function(){
+            $('.social-alarm').removeClass('visible');
+         }, 1500);
+     });
 });

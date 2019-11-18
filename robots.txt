@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /sites/
+
+Host: maximbredikhin.ru
+Sitemap: https://maximbredikhin.ru/sitemap.xml
