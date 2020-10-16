@@ -1,750 +1,768 @@
+@media screen and (max-width: 1600px) {
+  .offer-block {
+    top: 22%;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .portfolio-block {
+    width: 75%;
+    left: 12%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .h1 {
+    font-size: 40px;
+  }
+  .job-text {
+    font-size: 20px;
+  }
+  .site-desc {
+    margin-top: 11px;
+  }
+  .phone {
+    font-size: 19px;
+  }
+  .port-item {
+    width: 240px;
+    height: 310px;
+  }
+  .num_port {
+    font-size: 210px;
+  }
+  .num-port1 {
+    left: -7.7%;
+  }
+  .num-port2 {
+    left: 28%;
+  }
+  .num-port3 {
+    left: 64%;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .port-item {
+    width: 220px;
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .num-port2 {
+    left: 27%;
+  }
+  .num-port3 {
+    left: 63%;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .num_port {
+    font-size: 195px;
+  }
+  .port-item {
+    width: 210px;
+    height: 270px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
-  .container {
-    width: 1015px;
+  .cop-rect {
+    left: 14.5%;
+    height: 130px;
+    top: 20.5%;
   }
-  main {
-    width: 1015px;
+  .h1 {
+    font-size: 32px;
   }
-  .nav {
-    width: 1015px;
-    margin-right: 10px;
+  .job-text {
+    font-size: 18px;
   }
-  .logo {
-    margin-left: 15px;
+  .phone {
+    font-size: 18px;
   }
-  .menu {
-    margin-right: 15px;
+  .site-desc {
+    margin-top: 10px;
   }
-  .header_center_block {
-    width: 1015px;
+  .offer-block {
+    top: 23%;
   }
-  .offer {
-    margin-left: 40px;
+  .port-item {
+    width: 200px;
+    height: 260px;
   }
-  .header_gold_rect {
-    left: 10px;
+  .num_port {
+    font-size: 180px;
   }
-  .pinterest {
-    left: 765px;
+  .num-port1 {
+    left: -7.3%;
   }
-  .examples_text,
-  .price_text,
-  .contacts_common_block {
-    width: 1000px;
-    margin-left: 15px;
+  .num-port2 {
+    left: 27.5%;
+  }
+  .num-port3 {
+    left: 64%;
+  }
+  .about-me-info-block {
+    padding: 20px 5px 20px 50px;
+  }
+  .footer {
+    left: 43%;
+  }
+  .about-me-link:hover {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .icon-circle:hover {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .icon-circle:hover:nth-child(2) {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .icon-circle:hover:nth-child(3) {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  body {
+    background: none;
+    background-color: #0B0C0E;
+  }
+  .head-wrap {
+    background: url("../img/desktop_mob.jpg") no-repeat center center/cover;
+  }
+  .h1 {
+    font-size: 45px;
+  }
+  .about-main-block {
+    width: 70%;
+  }
+  .about-me-info-block {
+    padding-left: 25px;
+    padding-right: 20px;
+  }
+  .about-me-link {
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+  .offer-block {
+    display: block;
+    top: 19.5%;
+  }
+  .main-left-block {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main-right-block {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .site-desc {
+    font-size: 18px;
+    margin-top: 33px;
+  }
+  .cop-rect {
+    display: none;
+    height: 180px;
+  }
+  .job-text {
+    font-size: 20px;
+  }
+  .phone {
+    font-size: 24px;
+  }
+  .about-me-info-block {
+    font-size: 18px;
+    right: 40px;
+  }
+  .resume-link {
+    font-size: 20px;
+  }
+  .portfolio-block {
+    width: 84%;
+    left: 8%;
+    top: 60%;
+  }
+  .port-item {
+    height: 280px;
+    -webkit-filter: grayscale(0);
+            filter: grayscale(0);
+  }
+  .num_port {
+    color: rgba(196, 129, 18, 0.75);
+  }
+  .num-port1, .num-port2, .num-port3 {
+    top: -61%;
+  }
+  .num-port1 {
+    left: 7.7%;
+  }
+  .num-port2 {
+    left: 41.5%;
+  }
+  .num-port3 {
+    left: 77%;
+  }
+  .about-me-link {
+    background: rgba(0, 0, 0, 0.78);
+    width: 40px;
+  }
+  .about-me-link:hover {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .social-block {
+    width: 40px;
+    background: rgba(0, 0, 0, 0.78);
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+  }
+  .close {
+    opacity: .8;
+  }
+  .resume-link {
+    color: #c48112;
+    margin: 20px 0 10px;
+  }
+  .resume-link span {
+    color: white;
+  }
+  .social-alarm {
+    top: 20.7%;
+    right: 15%;
+    color: #fff;
+    background-color: rgba(196, 129, 18, 0.7);
+  }
+}
+
+@media screen and (max-width: 823px) {
+  .offer-block {
+    left: 22.5%;
+  }
+  .port-item {
+    width: 198.5px;
+    height: 145px;
+  }
+  .phone {
+    color: #c48112;
+  }
+  .site-desc {
+    color: #0A0B0B;
+    font-weight: 400;
+  }
+  .portfolio-block {
+    width: 80%;
+    left: 10%;
+  }
+  .num_port {
+    font-size: 80px;
+  }
+  .num-port1, .num-port2, .num-port3 {
+    top: -32%;
+  }
+  .num-port1 {
+    left: -3.9%;
+  }
+  .num-port2 {
+    left: 29.5%;
+  }
+  .num-port3 {
+    left: 65%;
+  }
+}
+
+@media screen and (max-width: 823px) {
+  .site-desc {
+    margin-top: 25px;
+  }
+  .about-me-info-block {
+    font-size: 16px;
+  }
+  .offer-block {
+    top: 8.5%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  h2 {
-    font-size: 26px;
+  .site-desc {
+    color: #aaa;
   }
-  h3 {
+  .offer-block {
+    top: 17.5%;
+  }
+  .cop {
+    color: #c48112;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .offer-block {
+    top: 15%;
+  }
+  .num_port {
+    display: none;
+  }
+  .site-desc {
+    color: #0B0C0E;
+    margin-top: 15px;
+  }
+  .phone {
     font-size: 22px;
   }
-  body {
-    letter-spacing: 1px;
+  .port-item {
+    width: 193px;
+    height: 140px;
   }
-  .container {
-    width: 760px;
+  .about-main-block {
+    width: 60%;
   }
-  main {
-    width: 760px;
-  }
-  .nav {
-    width: 760px;
-    margin-right: 10px;
-  }
-  .logo {
-    margin-left: 10px;
-  }
-  .menu {
-    margin-right: 10px;
-  }
-  .menu_list_item {
-    margin-left: 20px;
-  }
-  .header_gold_rect {
-    width: 740px;
-    border-right: 1px solid #D8C376;
-    top: 280px;
-  }
-  .header_center_block {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 760px;
-  }
-  .offer {
-    width: 320px;
-    margin-left: 0;
-    text-align: center;
-  }
-  .header_gold_rect {
-    left: 10px;
-  }
-  .pinterest {
-    font-size: 10px;
-    left: 463px;
-    top: 625px;
-  }
-  .pinterest_link {
-    color: #E60023;
-  }
-  .advantages_title {
-    margin-top: 120px;
-  }
-  .advantages_block {
-    width: 760px;
-    height: 360px;
-  }
-  .advantages_img {
-    width: 540px;
-    height: 360px;
-  }
-  .advantages_block_number {
-    font-size: 110px;
-  }
-  .advantages_text {
+  .about-me-info-block {
     font-size: 15px;
   }
-  .advantages_block:nth-child(4) {
-    margin-bottom: 120px;
+  .close {
+    right: 11%;
   }
-  .work_process_common {
-    width: 560px;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin: 80px auto 120px;
+  .cop {
+    color: #c48112;
   }
-  .work_process_text {
-    font-size: 22px;
+}
+
+@media screen and (max-width: 736px) {
+  .site-desc {
+    margin-top: 30px;
   }
-  .work_process_block:nth-child(3) {
-    margin-top: 50px;
+}
+
+@media screen and (max-width: 731px) {
+  .site-desc {
+    margin-top: 33px;
   }
-  .work_process_block:nth-child(4) {
-    margin-top: 50px;
+  .portfolio-block {
+    width: 83%;
+    left: 8.5%;
   }
-  .examples_text,
-  .price_text,
-  .contacts_common_block {
-    width: 740px;
-    margin-left: 10px;
-    font-size: 22px;
+}
+
+@media screen and (max-width: 730px) {
+  .h1 {
+    font-size: 40px;
   }
-  .contacts_block {
-    width: 160px;
+  .job-text {
+    font-size: 18px;
   }
-  .skype {
-    margin-left: 65px;
+}
+
+@media screen and (max-width: 667px) {
+  .h1 {
+    font-size: 34px;
   }
-  .email {
-    width: 224px;
+  .job-text {
+    font-size: 15px;
   }
-  .phone_number_link,
-  .skype_link,
-  .email_link {
-    font-size: 20px;
+  .site-desc {
+    font-size: 16px;
+    margin-top: 41px;
   }
-  .arrow-top {
-    display: none;
+  .phone {
+    font-size: 18px;
+  }
+  .port-item {
+    width: 170px;
+    height: 120px;
+  }
+  .portfolio-block {
+    width: 79%;
+    left: 10.5%;
+  }
+  .footer {
+    font-size: 9px;
+    left: 41%;
   }
 }
 
 @media screen and (max-width: 640px) {
-  h3 {
-    font-size: 18px;
+  .h1 {
+    font-size: 35px;
   }
-  .container {
-    width: 640px;
+  .offer-block {
+    top: 17%;
   }
-  main {
-    width: 640px;
+  .job-text {
+    font-size: 16px;
   }
-  .nav {
-    width: 640px;
-    margin-right: 10px;
+  .site-desc {
+    color: #fff;
+    font-weight: 300;
+    margin-top: 28px;
   }
-  .logo {
-    margin-left: 10px;
+  .port-item {
+    width: 170px;
+    height: 125px;
   }
-  .menu_list_item {
-    font-size: 13px;
-    margin-left: 20px;
+  .about-me-info-block {
+    font-size: 14px;
   }
-  .header_gold_rect {
-    width: 610px;
-    height: 410px;
-    border-right: 1px solid #D8C376;
-    top: 285px;
+  .portfolio-block {
+    width: 83%;
+    left: 8.5%;
   }
-  .header_center_block {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 640px;
-    height: 675px;
+  .resume-link {
+    font-size: 16px;
   }
-  .offer {
-    width: 300px;
-    margin-left: 0;
-    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .h1 {
+    font-size: 33px;
   }
-  .header_gold_rect {
-    width: 618px;
-    left: 10px;
+  .job-text {
+    font-size: 14px;
   }
-  .profilies_header_img {
-    width: 620px;
-    height: 458px;
-    margin-left: 18px;
+}
+
+@media screen and (max-width: 568px) {
+  .h1 {
+    font-size: 32px;
   }
-  .pinterest {
-    font-size: 10px;
-    left: 427px;
-    top: 593px;
-  }
-  .pinterest_link {
-    color: #E60023;
-    left: 418px;
-    top: 593px;
-  }
-  .advantages_title {
-    margin-top: 120px;
-  }
-  .advantages_block {
-    width: 640px;
-    height: 290px;
-  }
-  .advantages_img {
-    width: 470px;
-    height: 290px;
-  }
-  .advantages_block_number {
-    font-size: 110px;
-  }
-  .advantages_text {
+  .job-text {
     font-size: 15px;
   }
-  .advantages_block:nth-child(4) {
-    margin-bottom: 120px;
+  .site-desc {
+    font-size: 16px;
+    margin-top: 23px;
   }
-  .work_process_common {
-    width: 560px;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin: 80px auto 120px;
-  }
-  .work_process_text {
-    font-size: 22px;
-  }
-  .work_process_block:nth-child(3) {
-    margin-top: 50px;
-  }
-  .work_process_block:nth-child(4) {
-    margin-top: 50px;
-  }
-  .examples_text,
-  .price_text,
-  .contacts_common_block {
-    width: 620px;
-    margin-left: 10px;
-    font-size: 22px;
-  }
-  .contacts_block {
-    width: 145px;
-  }
-  .skype {
-    margin-left: 65px;
-  }
-  .email {
-    width: 224px;
-  }
-  .phone_number_link,
-  .skype_link,
-  .email_link {
+  .phone {
     font-size: 18px;
   }
-  .phone_number,
-  .skype_login,
-  .email_address {
-    margin-top: 12px;
+  .port-item {
+    width: 146px;
+    height: 110px;
   }
-  .modal {
-    width: 400px;
-    height: 315px;
+  .portfolio-block {
+    width: 78%;
+    left: 11%;
+  }
+  .footer {
+    font-size: 9px;
+    left: 41%;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .main-left-block {
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 414px) {
-  h2 {
-    margin-left: 25px;
+  body {
+    height: 1632px;
   }
-  .container {
-    width: 410px;
+  .offer-block {
+    top: 8.5%;
   }
-  main {
-    width: 410px;
+  .about-main-block {
+    width: 100%;
   }
-  .nav {
-    width: 410px;
-    margin-right: 5px;
-  }
-  .logo {
-    margin-left: 5px;
-  }
-  .menu {
-    display: none;
-  }
-  .header_center_block {
-    width: 410px;
-    height: 531px;
-  }
-  .header_gold_rect {
-    width: 398px;
-    height: 300px;
-    top: 290px;
-    left: 5px;
-  }
-  .profilies_header_img {
-    width: 410px;
-    height: 300px;
-  }
-  .pinterest {
-    font-size: 7px;
-    top: 485px;
-    left: 244px;
-  }
-  .advantages_title {
-    margin-top: 100px;
-  }
-  .advantages_block {
-    position: relative;
-    width: 410px;
-    height: 410px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-bottom: 90px;
-  }
-  .advantages_block:nth-child(2) {
-    margin-top: 70px;
-  }
-  .advantages_block:nth-child(3) {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .advantages_img {
-    width: 410px;
-    height: 270px;
-  }
-  .advantages_block_number {
-    position: absolute;
-    margin-top: 0;
-    top: 188px;
-    left: 328px;
-  }
-  .advantages_second_block {
-    left: 25px;
-  }
-  .advantages_info-column {
-    margin-top: 17px;
-  }
-  .advantages_text {
-    font-size: 18px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  .work_process_common {
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 410px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-top: 70px;
-  }
-  .work_process_block:not(:first-child) {
-    margin-top: 20px;
-  }
-  .work_process_block:not(:first-child):nth-child(3) {
-    margin-top: 20px;
-  }
-  .work_process_block:not(:first-child):nth-child(4) {
-    margin-top: 20px;
-  }
-  .detail {
+  .about-me-info-block {
     font-size: 16px;
   }
-  .examples_text,
-  .price_text,
-  .contacts_common_block {
-    width: 380px;
-    margin-left: 15px;
-    margin-right: 15px;
+  .resume-link {
+    font-size: 18px;
   }
-  .examples_text {
-    font-size: 20px;
+  .h1 {
+    font-size: 42px;
     text-align: center;
-    text-indent: 0;
   }
-  .example_img {
-    margin-bottom: 120px;
+  .job-text {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 15px;
   }
-  .price_text {
-    font-size: 19px;
+  .site-desc {
+    color: #0B0C0E;
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 110px;
   }
-  .price_text:nth-child(2) {
-    margin-bottom: 25px;
+  .main-right-block {
+    width: 200px;
   }
-  .title_contacts {
-    margin-left: 25px;
-    margin-top: 120px;
+  .phone {
+    font-size: 22px;
+    width: 175px;
   }
-  .contacts_common_block {
+  .about-me-text span {
+    color: #c48112;
+  }
+  .footer {
+    left: 29%;
+  }
+  .close {
+    right: 8%;
+  }
+  .num_port {
+    display: block;
+    font-size: 90px;
+    left: 0%;
+  }
+  .num-port1 {
+    top: 0%;
+  }
+  .num-port2 {
+    top: 33.5%;
+  }
+  .num-port3 {
+    top: 67%;
+  }
+  .about-me-info-block {
+    right: 40px;
+  }
+  .icon-circle:hover {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .icon-circle:hover:nth-child(2) {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .icon-circle:hover:nth-child(3) {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .portfolio-block {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    top: 46.4%;
+    margin-left: 8px;
   }
-  .skype {
-    margin-left: 0;
-    margin-top: 30px;
+  .port-item {
+    width: 330px;
+    height: 180px;
+    margin-top: 95px;
   }
-  .email {
-    width: 224px;
-    margin: 30px 0 50px;
+  .footer {
+    font-size: 10px;
+    left: 32%;
   }
-  .phone_number,
-  .skype_login,
-  .email_address {
-    margin-top: 10px;
-  }
-  .mini-menu {
-    display: block;
-  }
-  .menu-btn {
-    position: absolute;
-    top: 9px;
-    right: 0;
-    display: block;
-    float: left;
-    width: 50px;
-    height: 50px;
-    margin: 0;
-    border-radius: 50%;
-  }
-  .menu-btn span,
-  .menu-btn span::before,
-  .menu-btn span::after {
-    position: absolute;
-    top: 50%;
-    width: 40px;
-    height: 2px;
-    background-color: #D8C376;
-  }
-  .menu-btn span::before,
-  .menu-btn span::after {
-    content: '';
-    display: block;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-  }
-  .menu-btn span::before {
-    -webkit-transform: translateY(-15px);
-            transform: translateY(-15px);
-  }
-  .menu-btn span::after {
-    -webkit-transform: translateY(13px);
-            transform: translateY(13px);
-  }
-  .menu-btn-active span::before {
-    -webkit-transform: rotate(42deg);
-            transform: rotate(42deg);
-  }
-  .menu-btn-active span::after {
-    -webkit-transform: rotate(-42deg);
-            transform: rotate(-42deg);
-  }
-  .menu-btn-active span {
-    height: 0;
-  }
-  .container-menu-mini {
-    position: absolute;
-    top: 60px;
+  .main-right-block {
     width: 100%;
-    height: 300vh;
-    background-color: #0E0D0D;
-    z-index: 5;
   }
-  .container-menu-mini__item {
-    display: block;
-    width: 180px;
-    margin: 35px 0;
+}
+
+@media screen and (max-width: 411px) {
+  body {
+    height: 1650px;
   }
-  .container-menu-mini__link {
-    color: #D8C376;
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: 200;
+  .h1 {
+    font-size: 35px;
   }
-  .scroll {
-    overflow: hidden;
+  .offer-block {
+    top: 9%;
   }
-  .top {
-    top: 445px;
-    -webkit-transition: .5s;
-    transition: .5s;
+  .job-text {
+    font-size: 20px;
   }
-  .display {
-    display: none;
+  .site-desc {
+    font-size: 20px;
+    color: #0B0C0E;
+    font-weight: 400;
+    margin-top: 115px;
   }
-  .container-present__forename_mini {
-    color: #fff;
-    -webkit-transition: .5s;
-    transition: .5s;
+  .main-right-block {
+    width: 100%;
+    margin: 0;
   }
-  .container-present__prof_mini {
-    color: #fff;
+  .portfolio-block {
+    top: 50%;
+    left: 8%;
   }
-  .modal {
-    width: 350px;
-    height: 315px;
+  .port-item {
+    width: 333px;
+    margin-top: 80px;
   }
-  .close-modal {
-    left: 287px;
+  .num_port {
+    left: -1%;
   }
-  .modal_text {
-    font-size: 17px;
+  .num-port1 {
+    top: -1.5%;
+  }
+  .num-port2 {
+    top: 32%;
+  }
+  .num-port3 {
+    top: 65%;
+  }
+  .cop-rect {
+    height: 160px;
   }
 }
 
 @media screen and (max-width: 375px) {
-  .container {
-    width: 370px;
+  body {
+    height: 1550px;
   }
-  main {
-    width: 370px;
+  .offer-block {
+    top: 9%;
   }
-  .nav {
-    width: 370px;
-    margin-right: 5px;
+  .h1 {
+    font-size: 34px;
   }
-  .logo {
-    margin-left: 5px;
+  .job-text {
+    font-size: 18px;
   }
-  .menu {
-    margin-right: 5px;
+  .site-desc {
+    margin-top: 100px;
+    color: #0B0C0E;
+    font-size: 19px;
   }
-  .header_center_block {
-    width: 370px;
-    height: 504px;
+  .portfolio-block {
+    left: 9%;
   }
-  .header_gold_rect {
-    left: 5px;
-    width: 358px;
-    height: 285px;
+  .num_port {
+    left: -9%;
   }
-  .profilies_header_img {
-    width: 360px;
-    height: 270px;
-    margin-left: 8px;
+  .num-port1 {
+    top: 2%;
   }
-  .pinterest {
-    left: 200px;
-    top: 470px;
+  .num-port2 {
+    top: 34.5%;
   }
-  .advantages_block {
-    width: 370px;
-    height: 375px;
+  .num-port3 {
+    top: 67%;
   }
-  .advantages_img {
-    width: 370px;
-    height: 230px;
+  .port-item {
+    width: 295px;
+    height: 150px;
+    margin-top: 90px;
   }
-  .advantages_block_number {
-    left: 300px;
-    top: 150px;
-  }
-  .advantages_second_block {
-    left: 25px;
-  }
-  .work_process_common {
-    width: 370px;
-  }
-  .examples_text,
-  .price_text,
-  .contacts_common_block {
-    width: 345px;
-    margin-left: 10px;
-  }
-  .email {
-    width: 224px;
-  }
-  .modal {
-    width: 310px;
-    height: 315px;
-  }
-  .close-modal {
-    left: 250px;
-    top: 260px;
-  }
-  .modal_text {
-    font-size: 17px;
-    margin-top: 0;
+  .port-item:first-child {
+    margin-top: 110px;
   }
 }
 
 @media screen and (max-width: 360px) {
-  .container {
-    width: 360px;
+  body {
+    height: 1500px;
   }
-  main {
-    width: 360px;
+  .h1 {
+    font-size: 36px;
   }
-  .nav {
-    width: 360px;
+  .job-text {
+    font-size: 19px;
   }
-  .header_center_block {
-    width: 360px;
-    height: 499px;
+  .offer-block {
+    top: 8%;
   }
-  .header_gold_rect {
-    width: 349px;
-    height: 285px;
+  .site-desc {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 105px;
+    color: #0B0C0E;
   }
-  .profilies_header_img {
-    width: 350px;
-    height: 260px;
+  .portfolio-block {
+    margin-left: 10px;
+    margin-top: 0;
+    top: 45%;
   }
-  .advantages_block {
-    width: 360px;
+  .num_port {
+    left: -10%;
   }
-  .advantages_img {
-    width: 360px;
+  .num-port1 {
+    top: 7.5%;
   }
-  .advantages_block_number {
-    left: 285px;
+  .num-port2 {
+    top: 40%;
   }
-  .advantages_second_block {
-    left: 15px;
+  .num-port3 {
+    top: 73%;
   }
-  .work_process_common {
-    width: 360px;
-  }
-  .modal {
-    width: 290px;
-    height: 315px;
-  }
-  .close-modal {
-    left: 230px;
-    top: 260px;
+  .port-item {
+    width: 295px;
+    height: 150px;
+    margin-top: 95px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .container {
-    width: 320px;
+  body {
+    height: 1300px;
   }
-  main {
-    width: 320px;
+  .offer-block {
+    top: 8%;
   }
-  .nav {
-    width: 320px;
-    margin-right: 5px;
+  .about-me-info-block {
+    font-size: 14px;
   }
-  .logo {
-    margin-left: 5px;
+  .resume-link {
+    font-size: 16px;
   }
-  .menu {
-    margin-right: 5px;
+  .site-desc {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 80px;
+    color: #0B0C0E;
   }
-  .header_center_block {
-    width: 320px;
-    height: 477px;
+  .main-right-block {
+    width: 185px;
   }
-  .offer {
-    font-size: 55px;
+  .num-port1 {
+    top: -8%;
+    left: -11.5%;
   }
-  .header_gold_rect {
-    left: 5px;
-    top: 285px;
-    width: 310px;
-    height: 285px;
+  .num-port2 {
+    top: 27%;
+    left: -12.5%;
   }
-  .profilies_header_img {
-    width: 310px;
-    height: 230px;
-    margin-left: 8px;
+  .num-port3 {
+    top: 62%;
+    left: -12.5%;
   }
-  .pinterest {
-    width: 98px;
-    left: 205px;
-    top: 455px;
-    text-align: right;
+  .portfolio-block {
+    top: 50%;
+    left: 12%;
+    margin-top: 5px;
   }
-  .advantages_block {
-    width: 320px;
-    height: 375px;
+  .port-item {
+    width: 257px;
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 28px;
   }
-  .advantages_img {
-    width: 320px;
-    height: 230px;
-  }
-  .advantages_block_number {
-    left: 252px;
-    top: 150px;
-  }
-  .advantages_second_block {
-    left: 10px;
-  }
-  .work_process_common {
-    width: 320px;
-  }
-  .example_img {
-    width: 310px;
-    height: 444px;
-  }
-  .examples_text,
-  .price_text,
-  .contacts_common_block {
-    width: 300px;
-    margin-left: 10px;
-  }
-  .price_text {
-    text-align: center;
-  }
-  .container-menu-mini__link {
-    font-size: 24px;
-  }
-  .email {
-    width: 224px;
-  }
-  .modal {
-    width: 255px;
-    height: 315px;
-  }
-  .close-modal {
-    left: 200px;
-    top: 260px;
-  }
-  .modal_text {
-    width: 255px;
-    font-size: 15px;
+  .port-item:first-child {
     margin-top: 0;
   }
+  .phone {
+    width: 175px;
+  }
+  .cop-rect {
+    display: none;
+  }
+}
+
+.border-r {
+  border-radius: 0;
 }
 /*# sourceMappingURL=media.css.map */
